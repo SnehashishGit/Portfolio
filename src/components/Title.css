@@ -1,0 +1,37 @@
+.changing-role-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .changing-role {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+
+
+  .changing-role::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Adjust the distance of the underline from the text as needed */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Adjust the thickness of the underline as needed */
+  background-color: #000; /* Adjust the color of the underline as needed */
+}
+
+  
+  .emoji {
+    width: 1em; /* Set the width to match the font size of h3 (1em is equivalent to the font size) */
+    height: 1em;
+    margin-left: 8px; /* Adjust the spacing between text and emoji as needed */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
