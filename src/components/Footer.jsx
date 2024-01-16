@@ -22,7 +22,7 @@ function Footer() {
                 aria-label="github"
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/Snehashish24"
+                href="https://github.com/SnehashishGit"
               >
                 <IconBrandGithub width={30} height={30} />
               </a>
