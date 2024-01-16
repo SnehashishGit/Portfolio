@@ -46,7 +46,7 @@ function Hero() {
                     aria-label="github"
                     rel="noreferrer"
                     target="_blank"
-                    href="https://github.com/Snehashish24"
+                    href="https://github.com/SnehashishGit"
                   >
                     <IconBrandGithub width={32} height={32} />
                   </a>
