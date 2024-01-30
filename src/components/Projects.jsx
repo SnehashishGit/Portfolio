@@ -19,7 +19,7 @@ function Projects(){
                         techno1="React Js"
                         techno2="Tailwind Css"
                         code="https://github.com/SnehashishGit"
-                        demo="https://final-agro-farms.vercel.app/"
+                        demo="https://agrofarms.vercel.app/"
                         scrollY="-83%"
                         icon=""
                         />  
