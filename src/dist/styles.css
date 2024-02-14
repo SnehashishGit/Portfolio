@@ -594,6 +594,14 @@
     margin-bottom: 1rem;
 
   }
+
+
+  @media (max-width:400px){
+    .TitlePro{
+      margin-left:15%;
+    }
+  }
+
   .project-content p {
     color: #147efb;
     font-size: 1.7rem;
